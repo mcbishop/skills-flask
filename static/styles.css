@@ -1,0 +1,27 @@
+/*Part Two: CSS
+Create a CSS file, styles.css, that stylizes application-form.html.
+First, include styles.css in application-form.html using a <link> tag.
+Complete each of the following styles using CSS:
+    •   Change the background color of all of the form input boxes and submit button to be yellow
+     (can you do this for all input boxes without having to stylize each one independently?)
+    •   Change the text in the last name field to be bold (hint: that’s the font-weight property).
+    •   Draw a border around the instruction box.
+*/
+
+
+html {
+    background-color: AliceBlue;
+    font-family: sans-serif;
+}
+
+input {
+    background-color: yellow;
+}
+
+#lastname {
+    font-weight: bold;
+}
+
+.outlined {
+     border: 2px solid black;
+}
